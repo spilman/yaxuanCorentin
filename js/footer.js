@@ -1,0 +1,1 @@
+document.write('<hr />Yaxuan Tang et Corentin Beaucé (c) 2025');

@@ -1,0 +1,1 @@
+document.write('<a id="mainTitleLink" href="file:///home/spilman/StudioProjects/leCoinDeLaSamba/index.html"><h1 id="mainTitle">le coin de la samba</h1></a><hr />');

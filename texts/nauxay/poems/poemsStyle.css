@@ -1,0 +1,19 @@
+.yaxuanPoem {
+    margin: 40px auto;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px
+}
+
+.yaxuanPoemChinese {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.yaxuanPoemFrancais {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.yaxuanPoemEnglish {
+    font-family: Arial,Helvetica,sans-serif;
+}
