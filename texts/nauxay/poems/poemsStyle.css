@@ -1,6 +1,5 @@
 .yaxuanPoem {
     margin: 40px auto;
-    max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
     padding: 0 10px
@@ -16,4 +15,15 @@
 
 .yaxuanPoemEnglish {
     font-family: Arial,Helvetica,sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.chinese, .french {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 50px;
 }
