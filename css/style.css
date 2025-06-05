@@ -76,3 +76,7 @@ a:visited {
     margin-left: 30%;
     margin-right: 30%;
 }
+
+.racineEauTable th, td {
+    text-align: left;
+}
