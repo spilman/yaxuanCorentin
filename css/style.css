@@ -1,6 +1,24 @@
-#mainTitleLink {
+.topBarTitleLink {
     text-decoration: none;
 }
+
+.topBarCategoryLink {
+    text-decoration: none;
+    color: #999;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 2.7;
+}
+
+.topBarMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.topBarElement {
+    flex: 1;
+}
+
 
 #mainTitle {
     color: black;
