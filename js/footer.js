@@ -1,1 +1,1 @@
-document.write('<hr />Yaxuan Tang et Corentin Beaucé (c) 2025');
+document.write('<div class="footerDiv"><hr />Yaxuan Tang et Corentin Beaucé (c) 2025</div>');

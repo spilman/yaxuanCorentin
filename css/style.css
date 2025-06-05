@@ -1,3 +1,29 @@
+/* ============== GLOBAL DEFINITION ============== */
+/* Line-wrap for deduck poems */
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul {
+    list-style-type: "- ";
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+a:visited {
+    color: #777;
+}
+
+
+
+/* ========= TOP BAR / HEADER ========== */
 .topBarTitleLink {
     text-decoration: none;
 }
@@ -19,23 +45,34 @@
     flex: 1;
 }
 
-
 #mainTitle {
     color: black;
 }
 
+
+
+/* ========= FOOTER ========== */
+.footerDiv {
+    position: absolute;
+    bottom: 10px;
+    width: 100vw;
+}
+
+
+
+/* ========= MAIN CONTENT ========== */
 .sectionTitle {
-    color: blue;
+    color: black;
+    font-weight: bold;
 }
 
-pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+.changeModeLink {
+    position: absolute;
+    top: 60%;
+    left: 10%;
 }
 
-ul {
-    list-style-type: "- ";
+.classicContentBlock {
+    margin-left: 30%;
+    margin-right: 30%;
 }
