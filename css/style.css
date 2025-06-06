@@ -14,11 +14,8 @@ ul {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
-}
-a:visited {
-    color: #777;
 }
 
 
@@ -30,9 +27,9 @@ a:visited {
 
 .topBarCategoryLink {
     text-decoration: none;
-    color: #999;
-    font-weight: 700;
-    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
     line-height: 2.7;
 }
 
@@ -42,8 +39,26 @@ a:visited {
 }
 
 .topBarElement {
-    flex: 1;
+    align-content: end;
 }
+
+#topBarTitle {
+    width: 300px;
+}
+
+#topBarRacines {
+    width: 80px;
+}
+
+#topBarRhizomes {
+    width: 96px;
+}
+
+#topBarManieresdEtre {
+    width: 121px;
+}
+
+
 
 #mainTitle {
     color: black;
