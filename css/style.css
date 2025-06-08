@@ -19,7 +19,6 @@ a {
 }
 
 
-
 /* ========= TOP BAR / HEADER ========== */
 .topBarTitleLink {
     text-decoration: none;
@@ -68,9 +67,7 @@ a {
 
 /* ========= FOOTER ========== */
 .footerDiv {
-    position: absolute;
-    bottom: 10px;
-    width: 99vw;
+    width: 98vw;
 }
 
 
