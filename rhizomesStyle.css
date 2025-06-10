@@ -1,0 +1,9 @@
+.contentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentBox .column {
+    flex: 1;
+    min-width: 335px;
+}
