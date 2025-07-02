@@ -78,7 +78,7 @@ a {
 
 /* ========= MAIN CONTENT ========== */
 .mainContent {
-    padding-bottom: 60px;
+    padding-bottom: 60px !important; /* cbeauce todo */
 }
 
 .sectionTitle {

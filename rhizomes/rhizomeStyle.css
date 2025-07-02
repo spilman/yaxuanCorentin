@@ -1,4 +1,4 @@
-.motsEntry {
+.rhizomeEmtry {
     font-family: Arial,Helvetica,sans-serif;
     margin: 40px auto;
     max-width: 800px;
@@ -7,11 +7,11 @@
     padding: 0 10px
 }
 
-.motsEntry p {
+.rhizomeEmtry p {
     text-indent: 4ch;
 }
 
-.motsEntry img {
+.rhizomeEmtry img {
     max-width: 800px;
 }
 
