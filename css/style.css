@@ -67,12 +67,20 @@ a {
 
 /* ========= FOOTER ========== */
 .footerDiv {
+    position: fixed;
+    bottom: 0;
     width: 98vw;
+    height: 60px;
+    background-color: white;
 }
 
 
 
 /* ========= MAIN CONTENT ========== */
+.mainContent {
+    padding-bottom: 60px;
+}
+
 .sectionTitle {
     color: black;
     font-weight: bold;
