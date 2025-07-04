@@ -15,6 +15,10 @@
     max-width: 800px;
 }
 
+.diaryEntry a {
+    color: #00E !important;
+}
+
 h1,
 h2,
 h3 {
