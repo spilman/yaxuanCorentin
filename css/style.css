@@ -1,4 +1,8 @@
 /* ============== GLOBAL DEFINITION ============== */
+body {
+    background-color: #F9F8DB;
+}
+
 /* Line-wrap for deduck poems */
 pre {
     white-space: pre-wrap;       /* Since CSS 2.1 */
@@ -20,46 +24,18 @@ a {
 
 
 /* ========= TOP BAR / HEADER ========== */
-.topBarTitleLink {
-    text-decoration: none;
-}
-
-.topBarCategoryLink {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 2.7;
-}
-
 .topBarMenu {
-    display: flex;
-    flex-direction: row;
-}
-
-.topBarElement {
-    align-content: end;
+    padding-bottom: 15px;
 }
 
 #topBarTitle {
-    width: 300px;
-}
+    display: inline-block;
 
-#topBarRacines {
-    width: 100px;
-}
+    padding-top: 40px;
+    padding-left: 150px;
 
-#topBarRhizomes {
-    width: 120px;
-}
-
-#topBarManieresdEtre {
-    width: 175px;
-}
-
-
-
-#mainTitle {
+    font-size: 25px;
+    text-decoration: none;
     color: black;
 }
 
@@ -93,7 +69,7 @@ a {
 }
 
 .classicContentBlock {
-    margin-left: 300px;
+    margin-left: 150px;
     margin-right: 30%;
 }
 
