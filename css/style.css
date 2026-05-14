@@ -27,6 +27,26 @@ blockquote {
 }
 
 
+/*========== FONT ============*/
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg; /* This handles both upright and italic */
+  src: url('../fonts/Inter-Variable.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* To use italics with this specific file: */
+em, i, .italic {
+  font-variation-settings: "slnt" -10; /* The variable axis for italics */
+  font-style: oblique 10deg;
+}
+
+
 /* ========= TOP BAR / HEADER ========== */
 .topBarMenu {
     padding-bottom: 15px;
