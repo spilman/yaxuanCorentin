@@ -1,6 +1,9 @@
 /* ============== GLOBAL DEFINITION ============== */
 body {
     background-color: #C7CEDA;
+    margin: 0px;
+
+    --standard-side-padding: 150px;
 }
 
 /* Line-wrap for deduck poems */
@@ -23,7 +26,11 @@ a {
 }
 
 blockquote {
-    
+    border-left: black;
+    border-style: none none none solid;
+    padding-left: 15px;
+    border-width: 1px;
+    margin-left: 20px;
 }
 
 
@@ -33,11 +40,13 @@ blockquote {
   font-weight: 100 900;
   font-display: swap;
   font-style: oblique 0deg 10deg; /* This handles both upright and italic */
-  src: url('../fonts/Inter-Variable.woff2') format('woff2');
+  src: url('../fonts/InterVariable.woff2') format('woff2-variations'),
+       url('../fonts/InterVariable.woff2') format('woff2');
 }
 
 body {
   font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 /* To use italics with this specific file: */
@@ -55,10 +64,10 @@ em, i, .italic {
 #top-bar-title {
     display: inline-block;
 
-    padding-top: 40px;
-    padding-left: 150px;
+    margin-top: 40px;
+    margin-left: var(--standard-side-padding);
 
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
     color: black;
 }
@@ -67,7 +76,7 @@ em, i, .italic {
 
 /* ========= MAIN CONTENT ========== */
 .main-content {
-    padding-bottom: 60px !important; /* cbeauce todo */
+    padding-bottom: 60px !important;
 }
 
 .change-mode-link {
@@ -83,8 +92,8 @@ em, i, .italic {
 }
 
 .classic-content-block {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: var(--standard-side-padding);
+    margin-right: var(--standard-side-padding);
 }
 
 

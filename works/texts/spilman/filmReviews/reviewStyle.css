@@ -1,18 +1,18 @@
-.filmReview {
+.film-review {
+    font-weight: 400;
     margin: 40px auto;
     max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
-    color: #444;
     padding: 0 10px
 }
 
-.filmReview img {
+.film-review img {
     height: 100%;
     width: 100%;
 }
 
-.filmReview p {
+.film-review p {
     text-indent: 36px;
 }
 

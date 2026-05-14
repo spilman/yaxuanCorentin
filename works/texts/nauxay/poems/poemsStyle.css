@@ -1,8 +1,9 @@
 .yaxuan-poem {
-    margin: 40px auto;
+    margin: 0px auto;
+    max-width: 800px;
+    
     line-height: 1.6;
     font-size: 18px;
-    padding: 0 10px
 }
 
 .yaxuan-poem-chinese {
@@ -11,13 +12,12 @@
 .yaxuan-poem-francais {
 }
 
-.container {
+.poem-container {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .chinese, .french {
-    width: 50%;
     box-sizing: border-box;
-    padding-left: 80px;
-    padding-right: 50px;
 }
