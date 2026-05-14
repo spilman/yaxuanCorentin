@@ -1,5 +1,4 @@
-.diaryEntry {
-    font-family: Arial,Helvetica,sans-serif;
+.diary-entry {
     margin: 40px auto;
     max-width: 800px;
     line-height: 1.6;
@@ -7,15 +6,15 @@
     padding: 0 10px
 }
 
-.diaryEntry p {
+.diary-entry p {
     text-indent: 36px;
 }
 
-.diaryEntry img {
+.diary-entry img {
     max-width: 800px;
 }
 
-.diaryEntry a {
+.diary-entry a {
     color: #00E !important;
 }
 

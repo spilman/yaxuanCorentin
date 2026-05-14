@@ -48,11 +48,11 @@ em, i, .italic {
 
 
 /* ========= TOP BAR / HEADER ========== */
-.topBarMenu {
+.top-bar-menu {
     padding-bottom: 15px;
 }
 
-#topBarTitle {
+#top-bar-title {
     display: inline-block;
 
     padding-top: 40px;
@@ -65,69 +65,40 @@ em, i, .italic {
 
 
 
-/* ========= FOOTER ========== */
-.footerDiv {
-    position: fixed;
-    bottom: 0;
-    width: 98vw;
-    height: 60px;
-    background-color: white;
-}
-
-
-
 /* ========= MAIN CONTENT ========== */
-.mainContent {
+.main-content {
     padding-bottom: 60px !important; /* cbeauce todo */
 }
 
-.sectionTitle {
-    color: black;
-    font-weight: bold;
-}
-
-.changeModeLink {
+.change-mode-link {
     position: absolute;
     top: 60%;
     right: 100px;
 }
 
-.shayuModeLink {
+.shayu-mode-link {
     position: absolute;
     top: 60%;
     right: 25%;
 }
 
-.classicContentBlock {
+.classic-content-block {
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.racineEauTable th, td {
-    text-align: left;
-}
-
-.shayuImageBlock {
-    position: absolute;
-    top: 75%;
-    left: 60%;
-}
-
-.indexLine {
-    color: white;
-}
 
 
-.excerptEntry {
-    font-family: Arial,Helvetica,sans-serif;
+
+.excerpt-entry {
     margin: 40px auto;
     max-width: 800px;
 }
 
-.excerptEntry p {
+.excerpt-entry p {
     text-indent: 4ch;
 }
 
-.excerptEntry img {
+.excerpt-entry img {
     max-width: 800px;
 }

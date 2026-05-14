@@ -1,4 +1,4 @@
-.filmEntry {
+.film-entry {
     font-family: Arial,Helvetica,sans-serif;
     margin: 40px auto;
     max-width: 800px;
@@ -7,11 +7,11 @@
     padding: 0 10px
 }
 
-.filmEntry p {
+.film-entry p {
     text-indent: 36px;
 }
 
-.filmEntry img {
+.film-entry img {
     max-width: 800px;
 }
 
@@ -32,7 +32,7 @@ blockquote {
     font-size: 17px;
 }
 
-.filmEntry iframe {
+.film-entry iframe {
     display: block;
     margin: auto;
 }

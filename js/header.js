@@ -1,1 +1,1 @@
-document.write('<div class="topBarMenu"><a id="topBarTitle" href="https://yaxuancorentin.fr/">yaxuan & corentin</a><hr /></div>');
+document.write('<div class="top-bar-menu"><a id="top-bar-title" href="https://yaxuancorentin.fr/">yaxuan & corentin</a><hr /></div>');
