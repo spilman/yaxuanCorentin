@@ -1,6 +1,6 @@
 /* ============== GLOBAL DEFINITION ============== */
 body {
-    background-color: #F9F8DB;
+    background-color: #C7CEDA;
 }
 
 /* Line-wrap for deduck poems */
@@ -18,7 +18,7 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
