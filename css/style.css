@@ -22,6 +22,10 @@ a {
     color: black;
 }
 
+blockquote {
+    
+}
+
 
 /* ========= TOP BAR / HEADER ========== */
 .topBarMenu {
@@ -65,18 +69,18 @@ a {
 .changeModeLink {
     position: absolute;
     top: 60%;
-    left: 10%;
+    right: 100px;
 }
 
 .shayuModeLink {
     position: absolute;
     top: 60%;
-    left: 10%;
+    right: 25%;
 }
 
 .classicContentBlock {
     margin-left: 150px;
-    margin-right: 30%;
+    margin-right: 150px;
 }
 
 .racineEauTable th, td {
