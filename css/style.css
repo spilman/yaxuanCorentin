@@ -68,6 +68,12 @@ a {
     left: 10%;
 }
 
+.shayuModeLink {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
 .classicContentBlock {
     margin-left: 150px;
     margin-right: 30%;
@@ -85,4 +91,19 @@ a {
 
 .indexLine {
     color: white;
+}
+
+
+.excerptEntry {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.excerptEntry p {
+    text-indent: 4ch;
+}
+
+.excerptEntry img {
+    max-width: 800px;
 }
