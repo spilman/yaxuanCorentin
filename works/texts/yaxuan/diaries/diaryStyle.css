@@ -3,7 +3,8 @@
     max-width: 800px;
     line-height: 1.6;
     font-size: 18px;
-    padding: 0 10px
+    padding: 0 10px;
+    font-weight: 400;
 }
 
 .diary-entry p {
@@ -18,16 +19,17 @@
     color: #00E !important;
 }
 
+.diary-entry h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+    font-weight: 400;
+}
+
 h1,
 h2,
 h3 {
     line-height: 1.2;
-}
-
-h3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 57px;
 }
 
 blockquote {
